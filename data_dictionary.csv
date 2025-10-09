@@ -1,0 +1,10 @@
+Column Name,Type,Description,Example Value
+date,Date,Calendar date of observation (2018–2022),2020-05-15
+region_id,Categorical,Unique identifier for region,R102
+region_type,Categorical,Region classification (Urban, Rural, Suburban),Urban
+pm25,Numeric,PM2.5 concentration (µg/m³),55.4
+temperature,Numeric,Daily average temperature (°C),28.5
+rainfall,Numeric,Daily rainfall (mm),12.3
+mobility_index,Numeric,Mobility index (proxy for movement/traffic),0.75
+unemployment_rate,Numeric,Regional unemployment rate (percentage),5.4
+policy_active,Binary (0/1),Indicator for whether the Clean Air Policy was active (1 = after rollout),0 or 1
